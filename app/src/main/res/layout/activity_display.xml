@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="20dp">
+
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/descTV"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|bottom"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:id="@+id/algorithmTV"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BACK"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"/>
+
+</LinearLayout>

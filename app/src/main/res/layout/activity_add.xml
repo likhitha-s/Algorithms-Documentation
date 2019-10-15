@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="20dp">
+
+
+    <EditText
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Name Of The Algorithm"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/descTV"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|bottom"
+        android:inputType="textMultiLine"
+        android:hint="Description Of The Algorithm"/>
+
+    <EditText
+        android:id="@+id/algorithmTV"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|bottom"
+        android:inputType="textMultiLine"
+        android:hint="Algorithm"/>
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="FINISH"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="270dp"/>
+
+</LinearLayout>
